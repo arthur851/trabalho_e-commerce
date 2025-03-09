@@ -78,6 +78,7 @@ li {
     flex-direction: row;
     font-weight: 500;
     overflow-wrap: break-word;
+    position: relative;
 }
 .tab {
     padding: 10px;
