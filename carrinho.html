@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+
+    <div class="cabecalho">
+        <div class="logo">
+            <a href="index.html"><img src="logo.jpg" alt="" width="84" height="31.5"></a>
+        </div>
+        <div class="secao-direita">
+            <a href="sla" class="link">Fale Conosco</a>
+            <a href="sla" class="link">FAQs</a>
+            <div class="caixa-pesquisa">
+                <input type="text" class="entrada-pesquisa" placeholder="Procurar">
+                <button class="botao-pesquisa"><img src="https://img.icons8.com/windows/32/search--v1.png " class="icone-pesquisa" alt="Buscar"></button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="pagina">
+        <div class="carrinho">
+            <h2 class="texto-titulo">🛒 Carrinho de Compras</h2>
+    
+            <div class="item-carrinho">
+                <img class="imagem-produto" src="p1.jpg" alt="Produto">
+                <div class="detalhes-produto">
+                    <h3 class="texto-subtitulo">Produto 1</h3>
+                    <p class="texto-preco">Preço: R$ 93,99</p>
+                </div>
+                <div class="quantidade">
+                    <button class="botao">-</button>
+                    <input class="entrada entrada-quantidade" type="text" value="1">
+                    <button class="botao">+</button>
+                </div>
+                <button class="botao botao-remover">Remover</button>
+            </div>
+    
+            <div class="item-carrinho">
+                <img class="imagem-produto" src="p2.jpg" alt="Produto">
+                <div class="detalhes-produto">
+                    <h3 class="texto-subtitulo">Produto 2</h3>
+                    <p class="texto-preco">Preço: R$ 80,99</p>
+                </div>
+                <div class="quantidade">
+                    <button class="botao">-</button>
+                    <input class="entrada entrada-quantidade" type="text" value="1">
+                    <button class="botao">+</button>
+                </div>
+                <button class="botao botao-remover">Remover</button>
+            </div>
+    
+            <p class="total-carrinho">Total: <strong>R$ 174,98</strong></p>
+    
+            <button class="botao botao-finalizar">Finalizar Compra</button>
+        </div>
+    </div>
+</body>
+</html>
